@@ -1,0 +1,38 @@
+/* General Styling */
+#container {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: deeppink;
+}
+
+a:visited {
+    color: darkcyan;
+}
+
+/* Terminal Styling */
+
+ins,
+del {
+    text-decoration: none;
+}
+
+s {
+    display: none;
+}
+
+#main {
+    visibility: hidden;
+}
