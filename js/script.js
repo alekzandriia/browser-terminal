@@ -1,6 +1,6 @@
 $('#main').t({
     delay: 0,//start delay (s)
-    speed: 30,//typing speed in ms (min: 10)
+    speed: 35,//typing speed in ms (min: 10)
     beep: true,
     caret: '<span style="color:hotpink; font-size:24px;">❤︎</span>',
     typing: function (elm, chr) {
