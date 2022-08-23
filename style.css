@@ -1,28 +1,33 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 .container {
     max-width: 100%;
 }
 
+body {
+    background: #0c1821;
+    color: #e1e5f2;
+}
+
 a {
     text-decoration: none;
-    color: cornflowerblue;
+    color: lightpink
 }
 
 a:hover {
-    color: hotpink;
+    color: cornflowerblue;
 }
 
 a:active {
-    color: deeppink;
+    color: darkcyan;
 }
 
 a:visited {
-    color: darkcyan;
+    color: darksalmon;
 }
 
 ins,
@@ -36,4 +41,22 @@ s {
 
 #main {
     visibility: hidden;
+
+}
+
+#thanks {
+    color: lightpink;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24
+}
+
+body::-webkit-scrollbar-thumb {
+    background: hotpink;
 }
