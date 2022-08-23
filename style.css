@@ -1,8 +1,11 @@
-/* General Styling */
-#container {
-    max-width: 800px;
-    margin: auto;
-    position: relative;
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.container {
+    max-width: 100%;
 }
 
 a {
@@ -21,8 +24,6 @@ a:active {
 a:visited {
     color: darkcyan;
 }
-
-/* Terminal Styling */
 
 ins,
 del {
