@@ -13,6 +13,36 @@ body {
     color: #e1e5f2;
 }
 
+#skip {
+    font-family: system-ui;
+    font-size: 1rem;
+    will-change: transform;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    animation: bounce 1s ease alternate infinite;
+    padding: 1rem;
+    margin: 1rem;
+    opacity: 80%;
+}
+
+#skip:hover {
+    scale: 1.25;
+    opacity: 100%;
+}
+
+@keyframes bounce {
+    to {
+        transform: translateY(0.5rem);
+    }
+}
+
+#skipped {
+    display: none;
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: lightpink
@@ -41,6 +71,7 @@ s {
 
 #main {
     visibility: hidden;
+    z-index: 1;
 
 }
 
