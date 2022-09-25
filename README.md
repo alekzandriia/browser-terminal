@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Everybody (and their mothers) use Linktree or some other similar alternative for their bio link. Since it's incredibly overused, not to mention boring, I wanted to create something that was more unique. Since I soend all my time coding I figured a terminal theme would be a great design choice to represent me & my interests. 
+Everybody (and their mothers) use Linktree or some other similar alternative for their bio link. Since it's incredibly overused, not to mention boring, I wanted to create something that was more unique. Since I spend all my time coding I figured a terminal theme would be a great design choice to represent me & my interests. 
 
 ## Design
 
